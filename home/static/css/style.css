@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edf2f7;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 10vh;
+    margin: auto;
+}
+
+.left,
+.right {
+    width: 25vw;
+    height: 20vh;
+}
+
+.left > img,
+.left {
+    border-radius: 15px 15px 0 15px;
+}
+
+.right > img,
+.right {
+    border-radius: 0 15px 15px 15px;
+}
+
+.left {
+    align-self: flex-start;
+    background: orange;
+}
+
+.right {
+    align-self: flex-end;
+    background: teal;
+}
+
+.center {
+    background: #ffffff;
+    color: #496480;
+    padding: 1rem 2rem;
+    width: 35vw;
+    align-self: center;
+    border-radius: 15px;
+}
+
+.left,
+.right,
+.center {
+    margin-bottom: 5px;
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #496480;
+    background-image: linear-gradient(to right, #ccc, #496480, #ccc);
+}

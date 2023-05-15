@@ -1,90 +1,32 @@
 {% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+<title>Archangel Target</title>
 <body>
-<div id="container">
-	<div><img src="{% static 'Picture1.png'  %}"></div>
+    <div class="container">
+        <div class="left"><img src="{% static 'Picture1.png'  %}" /></div>
 
-	<div class="attention">
-	<div class="en">
-This is not the target file but just a gateway that you can use to try to access the target file which is on a server protected by ARCHANGEL.
-	</div>
-	<hr/>
-	<div class="id">
-Ini bukan file targetnya tetapi hanya gateway yang dapat Anda gunakan untuk mencoba mengakses file targetnya yang ada di server yang diproteksi oleh ARCHANGEL.
-	</div>
-	<hr/>
-	<div class="fr">
-Ceci n'est pas le fichier cible mais juste une passerelle que vous pouvez utiliser pour essayer d'accéder au fichier cible qui se trouve sur un serveur protégé par ARCHANGEL.
-	</div>
-	</div>
+        <div class="center">
+            <p class="en">
+                This is not the target file but just a gateway that you can use
+                to try to access the target file which is on a server protected
+                by ARCHANGEL.
+            </p>
+            <hr />
+            <p class="id">
+                Ini bukan file targetnya tetapi hanya gateway yang dapat Anda
+                gunakan untuk mencoba mengakses file targetnya yang ada di
+                server yang diproteksi oleh ARCHANGEL.
+            </p>
+            <hr />
+            <p class="fr">
+                Ceci n'est pas le fichier cible mais juste une passerelle que
+                vous pouvez utiliser pour essayer d'accéder au fichier cible qui
+                se trouve sur un serveur protégé par ARCHANGEL.
+            </p>
+        </div>
 
-	<div><img src="{% static 'Picture2.png'  %}"></div>
-</div>
-
+        <div class="right"><img src="{% static 'Picture2.png'  %}" /></div>
+    </div>
 </body>
 
-<style>
-img {
-	width: 15rem;
-	height: 10rem;
-}
-body{
-    pointer-events: none;
-}
-.attention {
-	border: solid 1px black;
-	padding: 1rem;
-}
-.container body {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content:center;
-}
-</style>
-
-<script type="text/javascript">
-window.addEventListener("dragstart",(event)=>{
-  event.preventDefault();
-}, false)
-
-window.addEventListener('drop', (event) => {
-  e.preventDefault();
-}, false)
-
-window.addEventListener("mousedown",(event)=>{
-  event.preventDefault();
-}, false)
-
-window.addEventListener("contextmenu",(event)=>{
-  event.preventDefault();
-}, false)
-
-function ctrlShiftKey(e, keyCode) {
-  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
-}
-
-window.onKeyup = (e) => {
-	if (e.key == 'PrintScreen') {
-	   navigator.clipboard.writeText('');
-	    return false;
-	}
-}
-
-document.onkeydown = (e) => {
-  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U,A,P,F,S
-  if (
-    event.keyCode === 123 ||
-    ctrlShiftKey(e, 'I') ||
-    ctrlShiftKey(e, 'J') ||
-    ctrlShiftKey(e, 'C') ||
-    ctrlShiftKey(e, 'M') ||
-    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0)) ||
-    (e.ctrlKey && e.keyCode === 'A'.charCodeAt(0)) ||
-    (e.ctrlKey && e.keyCode === 'P'.charCodeAt(0)) ||
-    (e.ctrlKey && e.keyCode === 'F'.charCodeAt(0)) ||
-    (e.ctrlKey && e.keyCode === 'S'.charCodeAt(0)) ||
-    (e.key == 'PrintScreen')
-  )
-    navigator.clipboard.writeText('');
-    return false;
-};
- </script>
+<script src="{% static 'js/script.js' %}"></script>
