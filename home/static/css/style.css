@@ -17,7 +17,7 @@ img {
 .container {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 70vw;
     height: 10vh;
     margin: auto;
 }
@@ -52,15 +52,16 @@ img {
     background: #ffffff;
     color: #496480;
     padding: 1rem 2rem;
-    width: 35vw;
+    width: 100%;
     align-self: center;
+    border: solid 1px #d3dae2;
     border-radius: 15px;
 }
 
 .left,
 .right,
 .center {
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
         6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
         12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
@@ -74,4 +75,25 @@ hr {
     height: 1px;
     background: #496480;
     background-image: linear-gradient(to right, #ccc, #496480, #ccc);
+}
+
+@media (max-width: 900px) {
+    .left,
+    .left > img {
+        border-radius: 15px;
+        width: 100%;
+        align-self: center;
+    }
+    .right,
+    .right > img {
+        border-radius: 15px;
+        width: 100%;
+        align-self: center;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        width: 45vw;
+    }
 }
