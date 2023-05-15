@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cd /home/sydeco/target_landing
+DEBUG=False python3 manage.py runserver localhost:8000 &
+autossh -M 0 -R archangeltarget:80:localhost:8000 serveo.net
+

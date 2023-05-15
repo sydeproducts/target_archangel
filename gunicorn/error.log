@@ -1,0 +1,643 @@
+[2023-04-26 02:30:09 +0000] [21546] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 02:30:09 +0000] [21546] [INFO] Listening at: unix:/tmp/gunicorn.sock (21546)
+[2023-04-26 02:30:09 +0000] [21546] [INFO] Using worker: sync
+[2023-04-26 02:30:09 +0000] [21549] [INFO] Booting worker with pid: 21549
+[2023-04-26 02:30:09 +0000] [21550] [INFO] Booting worker with pid: 21550
+[2023-04-26 02:30:09 +0000] [21551] [INFO] Booting worker with pid: 21551
+[2023-04-26 02:32:02 +0000] [21551] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:32:02 +0000] [21551] [INFO] Worker exiting (pid: 21551)
+[2023-04-26 02:32:02 +0000] [21567] [INFO] Booting worker with pid: 21567
+[2023-04-26 02:32:03 +0000] [21549] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:32:03 +0000] [21549] [INFO] Worker exiting (pid: 21549)
+[2023-04-26 02:32:03 +0000] [21550] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:32:03 +0000] [21550] [INFO] Worker exiting (pid: 21550)
+[2023-04-26 02:32:04 +0000] [21579] [INFO] Booting worker with pid: 21579
+[2023-04-26 02:32:04 +0000] [21587] [INFO] Booting worker with pid: 21587
+[2023-04-26 02:32:12 +0000] [21623] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 02:32:12 +0000] [21623] [INFO] Listening at: http://127.0.0.1:8000 (21623)
+[2023-04-26 02:32:12 +0000] [21623] [INFO] Using worker: sync
+[2023-04-26 02:32:12 +0000] [21626] [INFO] Booting worker with pid: 21626
+[2023-04-26 02:32:12 +0000] [21627] [INFO] Booting worker with pid: 21627
+[2023-04-26 02:32:12 +0000] [21628] [INFO] Booting worker with pid: 21628
+[2023-04-26 02:33:21 +0000] [21647] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 02:33:21 +0000] [21647] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-04-26 02:33:21 +0000] [21647] [ERROR] Retrying in 1 second.
+[2023-04-26 02:33:22 +0000] [21647] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-04-26 02:33:22 +0000] [21647] [ERROR] Retrying in 1 second.
+[2023-04-26 02:33:23 +0000] [21647] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-04-26 02:33:23 +0000] [21647] [ERROR] Retrying in 1 second.
+[2023-04-26 02:33:24 +0000] [21647] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-04-26 02:33:24 +0000] [21647] [ERROR] Retrying in 1 second.
+[2023-04-26 02:33:25 +0000] [21647] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-04-26 02:33:25 +0000] [21647] [ERROR] Retrying in 1 second.
+[2023-04-26 02:33:26 +0000] [21647] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-04-26 02:37:44 +0000] [21587] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:37:44 +0000] [21587] [INFO] Worker exiting (pid: 21587)
+[2023-04-26 02:37:44 +0000] [21626] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:37:44 +0000] [21626] [INFO] Worker exiting (pid: 21626)
+[2023-04-26 02:37:44 +0000] [21627] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:37:44 +0000] [21627] [INFO] Worker exiting (pid: 21627)
+[2023-04-26 02:37:44 +0000] [21628] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:37:44 +0000] [21628] [INFO] Worker exiting (pid: 21628)
+[2023-04-26 02:37:44 +0000] [21567] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:37:44 +0000] [21567] [INFO] Worker exiting (pid: 21567)
+[2023-04-26 02:37:44 +0000] [21579] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:37:44 +0000] [21579] [INFO] Worker exiting (pid: 21579)
+[2023-04-26 02:37:45 +0000] [22261] [INFO] Booting worker with pid: 22261
+[2023-04-26 02:37:45 +0000] [22264] [INFO] Booting worker with pid: 22264
+[2023-04-26 02:37:45 +0000] [22265] [INFO] Booting worker with pid: 22265
+[2023-04-26 02:37:45 +0000] [22268] [INFO] Booting worker with pid: 22268
+[2023-04-26 02:37:46 +0000] [22271] [INFO] Booting worker with pid: 22271
+[2023-04-26 02:37:46 +0000] [22278] [INFO] Booting worker with pid: 22278
+[2023-04-26 02:38:34 +0000] [22264] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:38:34 +0000] [22264] [INFO] Worker exiting (pid: 22264)
+[2023-04-26 02:38:34 +0000] [22265] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:38:34 +0000] [22265] [INFO] Worker exiting (pid: 22265)
+[2023-04-26 02:38:34 +0000] [22322] [INFO] Booting worker with pid: 22322
+[2023-04-26 02:38:34 +0000] [22268] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:38:34 +0000] [22268] [INFO] Worker exiting (pid: 22268)
+[2023-04-26 02:38:34 +0000] [22271] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:38:34 +0000] [22271] [INFO] Worker exiting (pid: 22271)
+[2023-04-26 02:38:34 +0000] [22278] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:38:34 +0000] [22278] [INFO] Worker exiting (pid: 22278)
+[2023-04-26 02:38:34 +0000] [22261] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:38:34 +0000] [22261] [INFO] Worker exiting (pid: 22261)
+[2023-04-26 02:38:35 +0000] [22325] [INFO] Booting worker with pid: 22325
+[2023-04-26 02:38:35 +0000] [22328] [INFO] Booting worker with pid: 22328
+[2023-04-26 02:38:35 +0000] [22330] [INFO] Booting worker with pid: 22330
+[2023-04-26 02:38:36 +0000] [22335] [INFO] Booting worker with pid: 22335
+[2023-04-26 02:38:36 +0000] [22344] [INFO] Booting worker with pid: 22344
+[2023-04-26 02:39:14 +0000] [22328] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:39:14 +0000] [22328] [INFO] Worker exiting (pid: 22328)
+[2023-04-26 02:39:14 +0000] [22330] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:39:14 +0000] [22330] [INFO] Worker exiting (pid: 22330)
+[2023-04-26 02:39:14 +0000] [22335] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:39:14 +0000] [22335] [INFO] Worker exiting (pid: 22335)
+[2023-04-26 02:39:14 +0000] [22344] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:39:14 +0000] [22344] [INFO] Worker exiting (pid: 22344)
+[2023-04-26 02:39:14 +0000] [22322] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:39:14 +0000] [22322] [INFO] Worker exiting (pid: 22322)
+[2023-04-26 02:39:15 +0000] [22325] [INFO] Worker reloading: /target_landing/target_landing/settings.py modified
+[2023-04-26 02:39:15 +0000] [22325] [INFO] Worker exiting (pid: 22325)
+[2023-04-26 02:39:15 +0000] [22388] [INFO] Booting worker with pid: 22388
+[2023-04-26 02:39:16 +0000] [22394] [INFO] Booting worker with pid: 22394
+[2023-04-26 02:39:16 +0000] [22398] [INFO] Booting worker with pid: 22398
+[2023-04-26 02:39:16 +0000] [22401] [INFO] Booting worker with pid: 22401
+[2023-04-26 02:39:16 +0000] [22404] [INFO] Booting worker with pid: 22404
+[2023-04-26 02:39:16 +0000] [22407] [INFO] Booting worker with pid: 22407
+[2023-04-26 02:51:45 +0000] [22388] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:45 +0000] [22388] [INFO] Worker exiting (pid: 22388)
+[2023-04-26 02:51:45 +0000] [22578] [INFO] Booting worker with pid: 22578
+[2023-04-26 02:51:45 +0000] [22394] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:45 +0000] [22394] [INFO] Worker exiting (pid: 22394)
+[2023-04-26 02:51:45 +0000] [22398] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:45 +0000] [22398] [INFO] Worker exiting (pid: 22398)
+[2023-04-26 02:51:45 +0000] [22401] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:45 +0000] [22401] [INFO] Worker exiting (pid: 22401)
+[2023-04-26 02:51:45 +0000] [22407] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:45 +0000] [22407] [INFO] Worker exiting (pid: 22407)
+[2023-04-26 02:51:45 +0000] [22404] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:45 +0000] [22404] [INFO] Worker exiting (pid: 22404)
+[2023-04-26 02:51:46 +0000] [22582] [INFO] Booting worker with pid: 22582
+[2023-04-26 02:51:47 +0000] [22587] [INFO] Booting worker with pid: 22587
+[2023-04-26 02:51:47 +0000] [22592] [INFO] Booting worker with pid: 22592
+[2023-04-26 02:51:47 +0000] [22593] [INFO] Booting worker with pid: 22593
+[2023-04-26 02:51:47 +0000] [22597] [INFO] Booting worker with pid: 22597
+[2023-04-26 02:51:58 +0000] [22587] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:58 +0000] [22587] [INFO] Worker exiting (pid: 22587)
+[2023-04-26 02:51:58 +0000] [22592] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:58 +0000] [22592] [INFO] Worker exiting (pid: 22592)
+[2023-04-26 02:51:58 +0000] [22593] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:58 +0000] [22593] [INFO] Worker exiting (pid: 22593)
+[2023-04-26 02:51:58 +0000] [22597] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:58 +0000] [22597] [INFO] Worker exiting (pid: 22597)
+[2023-04-26 02:51:59 +0000] [22582] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:59 +0000] [22582] [INFO] Worker exiting (pid: 22582)
+[2023-04-26 02:51:59 +0000] [22578] [INFO] Worker reloading: ./gunicorn/gunicorn-config.py modified
+[2023-04-26 02:51:59 +0000] [22578] [INFO] Worker exiting (pid: 22578)
+[2023-04-26 02:51:59 +0000] [22643] [INFO] Booting worker with pid: 22643
+[2023-04-26 02:51:59 +0000] [22644] [INFO] Booting worker with pid: 22644
+[2023-04-26 02:51:59 +0000] [22645] [INFO] Booting worker with pid: 22645
+[2023-04-26 02:51:59 +0000] [22650] [INFO] Booting worker with pid: 22650
+[2023-04-26 02:52:00 +0000] [22657] [INFO] Booting worker with pid: 22657
+[2023-04-26 02:52:00 +0000] [22659] [INFO] Booting worker with pid: 22659
+[2023-04-26 02:52:50 +0000] [22643] [INFO] Worker exiting (pid: 22643)
+[2023-04-26 02:52:50 +0000] [22644] [INFO] Worker exiting (pid: 22644)
+[2023-04-26 02:52:50 +0000] [21546] [INFO] Handling signal: term
+[2023-04-26 02:52:50 +0000] [21623] [INFO] Handling signal: term
+[2023-04-26 02:52:50 +0000] [22645] [INFO] Worker exiting (pid: 22645)
+[2023-04-26 02:52:50 +0000] [22659] [INFO] Worker exiting (pid: 22659)
+[2023-04-26 02:52:50 +0000] [22650] [INFO] Worker exiting (pid: 22650)
+[2023-04-26 02:52:50 +0000] [22657] [INFO] Worker exiting (pid: 22657)
+[2023-04-26 02:52:50 +0000] [21623] [WARNING] Worker with pid 22659 was terminated due to signal 15
+[2023-04-26 02:52:50 +0000] [21623] [WARNING] Worker with pid 22643 was terminated due to signal 15
+[2023-04-26 02:52:51 +0000] [21623] [INFO] Shutting down: Master
+[2023-04-26 02:53:15 +0000] [22724] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 02:53:15 +0000] [22724] [INFO] Listening at: http://192.168.0.103:8000 (22724)
+[2023-04-26 02:53:15 +0000] [22724] [INFO] Using worker: sync
+[2023-04-26 02:53:15 +0000] [22727] [INFO] Booting worker with pid: 22727
+[2023-04-26 02:53:15 +0000] [22727] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '/target_landing/target_landing'
+[2023-04-26 02:53:15 +0000] [22727] [INFO] Worker exiting (pid: 22727)
+[2023-04-26 02:53:15 +0000] [22728] [INFO] Booting worker with pid: 22728
+[2023-04-26 02:53:15 +0000] [22729] [INFO] Booting worker with pid: 22729
+[2023-04-26 02:53:15 +0000] [22728] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '/target_landing/target_landing'
+[2023-04-26 02:53:15 +0000] [22728] [INFO] Worker exiting (pid: 22728)
+[2023-04-26 02:53:15 +0000] [22729] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.6/dist-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '/target_landing/target_landing'
+[2023-04-26 02:53:15 +0000] [22729] [INFO] Worker exiting (pid: 22729)
+[2023-04-26 02:53:15 +0000] [22724] [WARNING] Worker with pid 22727 was terminated due to signal 15
+[2023-04-26 02:53:15 +0000] [22724] [WARNING] Worker with pid 22729 was terminated due to signal 15
+[2023-04-26 02:53:15 +0000] [22724] [INFO] Shutting down: Master
+[2023-04-26 02:53:15 +0000] [22724] [INFO] Reason: Worker failed to boot.
+[2023-04-26 02:53:56 +0000] [22737] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 02:53:56 +0000] [22737] [INFO] Listening at: http://192.168.0.103:8000 (22737)
+[2023-04-26 02:53:56 +0000] [22737] [INFO] Using worker: sync
+[2023-04-26 02:53:56 +0000] [22740] [INFO] Booting worker with pid: 22740
+[2023-04-26 02:53:56 +0000] [22741] [INFO] Booting worker with pid: 22741
+[2023-04-26 02:53:57 +0000] [22742] [INFO] Booting worker with pid: 22742
+[2023-04-26 03:21:30 +0000] [22737] [INFO] Handling signal: term
+[2023-04-26 03:21:30 +0000] [22740] [INFO] Worker exiting (pid: 22740)
+[2023-04-26 03:21:30 +0000] [22737] [WARNING] Worker with pid 22741 was terminated due to signal 1
+[2023-04-26 03:21:30 +0000] [22737] [WARNING] Worker with pid 22742 was terminated due to signal 1
+[2023-04-26 03:21:30 +0000] [22737] [WARNING] Worker with pid 22740 was terminated due to signal 1
+[2023-04-26 03:21:30 +0000] [22737] [INFO] Shutting down: Master
+[2023-04-26 03:33:57 +0000] [1738] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 03:33:57 +0000] [1738] [INFO] Listening at: http://192.168.0.103:8000 (1738)
+[2023-04-26 03:33:57 +0000] [1738] [INFO] Using worker: sync
+[2023-04-26 03:33:57 +0000] [1741] [INFO] Booting worker with pid: 1741
+[2023-04-26 03:33:58 +0000] [1742] [INFO] Booting worker with pid: 1742
+[2023-04-26 03:33:58 +0000] [1743] [INFO] Booting worker with pid: 1743
+[2023-04-26 03:38:18 +0000] [1738] [INFO] Handling signal: term
+[2023-04-26 03:38:18 +0000] [1741] [INFO] Worker exiting (pid: 1741)
+[2023-04-26 03:38:18 +0000] [1743] [INFO] Worker exiting (pid: 1743)
+[2023-04-26 03:38:18 +0000] [1742] [INFO] Worker exiting (pid: 1742)
+[2023-04-26 03:38:18 +0000] [1738] [WARNING] Worker with pid 1742 was terminated due to signal 15
+[2023-04-26 03:38:18 +0000] [1738] [WARNING] Worker with pid 1743 was terminated due to signal 15
+[2023-04-26 03:38:18 +0000] [1738] [INFO] Shutting down: Master
+[2023-04-26 04:23:17 +0000] [3171] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 04:23:17 +0000] [3171] [INFO] Listening at: http://192.168.0.103:8000 (3171)
+[2023-04-26 04:23:17 +0000] [3171] [INFO] Using worker: sync
+[2023-04-26 04:23:17 +0000] [3174] [INFO] Booting worker with pid: 3174
+[2023-04-26 04:23:17 +0000] [3175] [INFO] Booting worker with pid: 3175
+[2023-04-26 04:23:18 +0000] [3176] [INFO] Booting worker with pid: 3176
+[2023-04-26 04:36:09 +0000] [3174] [INFO] Worker reloading: /target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 04:36:09 +0000] [3174] [INFO] Worker exiting (pid: 3174)
+[2023-04-26 04:36:09 +0000] [3176] [INFO] Worker reloading: /target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 04:36:09 +0000] [3176] [INFO] Worker exiting (pid: 3176)
+[2023-04-26 04:36:09 +0000] [3175] [INFO] Worker reloading: /target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 04:36:09 +0000] [3175] [INFO] Worker exiting (pid: 3175)
+[2023-04-26 04:36:09 +0000] [3445] [INFO] Booting worker with pid: 3445
+[2023-04-26 04:36:09 +0000] [3446] [INFO] Booting worker with pid: 3446
+[2023-04-26 04:36:10 +0000] [3447] [INFO] Booting worker with pid: 3447
+[2023-04-26 04:36:27 +0000] [3447] [INFO] Worker reloading: /target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 04:36:27 +0000] [3447] [INFO] Worker exiting (pid: 3447)
+[2023-04-26 04:36:27 +0000] [3446] [INFO] Worker reloading: /target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 04:36:27 +0000] [3446] [INFO] Worker exiting (pid: 3446)
+[2023-04-26 04:36:27 +0000] [3454] [INFO] Booting worker with pid: 3454
+[2023-04-26 04:36:27 +0000] [3455] [INFO] Booting worker with pid: 3455
+[2023-04-26 04:36:28 +0000] [3445] [INFO] Worker reloading: /target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 04:36:28 +0000] [3445] [INFO] Worker exiting (pid: 3445)
+[2023-04-26 04:36:28 +0000] [3460] [INFO] Booting worker with pid: 3460
+[2023-04-26 04:36:54 +0000] [3171] [INFO] Handling signal: term
+[2023-04-26 04:36:54 +0000] [3455] [INFO] Worker exiting (pid: 3455)
+[2023-04-26 04:36:54 +0000] [3454] [INFO] Worker exiting (pid: 3454)
+[2023-04-26 04:36:54 +0000] [3460] [INFO] Worker exiting (pid: 3460)
+[2023-04-26 04:36:54 +0000] [3171] [WARNING] Worker with pid 3460 was terminated due to signal 15
+[2023-04-26 04:36:54 +0000] [3171] [INFO] Shutting down: Master
+[2023-04-26 04:37:26 +0000] [3487] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 04:37:26 +0000] [3487] [INFO] Listening at: http://192.168.0.103:8000 (3487)
+[2023-04-26 04:37:26 +0000] [3487] [INFO] Using worker: sync
+[2023-04-26 04:37:26 +0000] [3490] [INFO] Booting worker with pid: 3490
+[2023-04-26 04:37:26 +0000] [3491] [INFO] Booting worker with pid: 3491
+[2023-04-26 04:37:26 +0000] [3492] [INFO] Booting worker with pid: 3492
+[2023-04-26 04:39:33 +0000] [3487] [INFO] Handling signal: term
+[2023-04-26 04:39:33 +0000] [3490] [INFO] Worker exiting (pid: 3490)
+[2023-04-26 04:39:33 +0000] [3491] [INFO] Worker exiting (pid: 3491)
+[2023-04-26 04:39:33 +0000] [3492] [INFO] Worker exiting (pid: 3492)
+[2023-04-26 04:39:33 +0000] [3487] [WARNING] Worker with pid 3491 was terminated due to signal 15
+[2023-04-26 04:39:33 +0000] [3487] [WARNING] Worker with pid 3492 was terminated due to signal 15
+[2023-04-26 04:39:33 +0000] [3487] [INFO] Shutting down: Master
+[2023-04-26 05:08:13 +0000] [1812] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:08:13 +0000] [1812] [INFO] Listening at: http://192.168.0.103:8000 (1812)
+[2023-04-26 05:08:13 +0000] [1812] [INFO] Using worker: sync
+[2023-04-26 05:08:13 +0000] [1815] [INFO] Booting worker with pid: 1815
+[2023-04-26 05:08:13 +0000] [1816] [INFO] Booting worker with pid: 1816
+[2023-04-26 05:08:14 +0000] [1817] [INFO] Booting worker with pid: 1817
+[2023-04-26 05:08:22 +0000] [1812] [INFO] Handling signal: term
+[2023-04-26 05:08:22 +0000] [1815] [INFO] Worker exiting (pid: 1815)
+[2023-04-26 05:08:22 +0000] [1816] [INFO] Worker exiting (pid: 1816)
+[2023-04-26 05:08:22 +0000] [1817] [INFO] Worker exiting (pid: 1817)
+[2023-04-26 05:08:22 +0000] [1812] [WARNING] Worker with pid 1817 was terminated due to signal 15
+[2023-04-26 05:08:22 +0000] [1812] [WARNING] Worker with pid 1816 was terminated due to signal 15
+[2023-04-26 05:08:22 +0000] [1812] [INFO] Shutting down: Master
+[2023-04-26 05:09:18 +0000] [1098] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:09:18 +0000] [1098] [INFO] Listening at: http://192.168.0.103:8000 (1098)
+[2023-04-26 05:09:18 +0000] [1098] [INFO] Using worker: sync
+[2023-04-26 05:09:18 +0000] [1124] [INFO] Booting worker with pid: 1124
+[2023-04-26 05:09:18 +0000] [1125] [INFO] Booting worker with pid: 1125
+[2023-04-26 05:09:18 +0000] [1126] [INFO] Booting worker with pid: 1126
+[2023-04-26 05:10:16 +0000] [1125] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:16 +0000] [1124] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:16 +0000] [1125] [INFO] Worker exiting (pid: 1125)
+[2023-04-26 05:10:16 +0000] [1124] [INFO] Worker exiting (pid: 1124)
+[2023-04-26 05:10:16 +0000] [1126] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:16 +0000] [1126] [INFO] Worker exiting (pid: 1126)
+[2023-04-26 05:10:16 +0000] [1697] [INFO] Booting worker with pid: 1697
+[2023-04-26 05:10:16 +0000] [1698] [INFO] Booting worker with pid: 1698
+[2023-04-26 05:10:16 +0000] [1699] [INFO] Booting worker with pid: 1699
+[2023-04-26 05:10:22 +0000] [1698] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:22 +0000] [1698] [INFO] Worker exiting (pid: 1698)
+[2023-04-26 05:10:22 +0000] [1697] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:22 +0000] [1697] [INFO] Worker exiting (pid: 1697)
+[2023-04-26 05:10:22 +0000] [1706] [INFO] Booting worker with pid: 1706
+[2023-04-26 05:10:22 +0000] [1699] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:22 +0000] [1699] [INFO] Worker exiting (pid: 1699)
+[2023-04-26 05:10:22 +0000] [1707] [INFO] Booting worker with pid: 1707
+[2023-04-26 05:10:22 +0000] [1709] [INFO] Booting worker with pid: 1709
+[2023-04-26 05:10:27 +0000] [1707] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:27 +0000] [1707] [INFO] Worker exiting (pid: 1707)
+[2023-04-26 05:10:27 +0000] [1706] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:27 +0000] [1706] [INFO] Worker exiting (pid: 1706)
+[2023-04-26 05:10:27 +0000] [1709] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-04-26 05:10:27 +0000] [1709] [INFO] Worker exiting (pid: 1709)
+[2023-04-26 05:10:27 +0000] [1715] [INFO] Booting worker with pid: 1715
+[2023-04-26 05:10:27 +0000] [1716] [INFO] Booting worker with pid: 1716
+[2023-04-26 05:10:27 +0000] [1717] [INFO] Booting worker with pid: 1717
+[2023-04-26 05:11:47 +0000] [1717] [INFO] Worker exiting (pid: 1717)
+[2023-04-26 05:11:47 +0000] [1716] [INFO] Worker exiting (pid: 1716)
+[2023-04-26 05:11:47 +0000] [1715] [INFO] Worker exiting (pid: 1715)
+[2023-04-26 05:11:47 +0000] [1098] [INFO] Handling signal: term
+[2023-04-26 05:11:47 +0000] [1098] [WARNING] Worker with pid 1715 was terminated due to signal 15
+[2023-04-26 05:11:47 +0000] [1098] [WARNING] Worker with pid 1716 was terminated due to signal 15
+[2023-04-26 05:11:47 +0000] [1098] [WARNING] Worker with pid 1717 was terminated due to signal 15
+[2023-04-26 05:11:47 +0000] [1098] [INFO] Shutting down: Master
+[2023-04-26 05:12:33 +0000] [1098] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:12:33 +0000] [1098] [INFO] Listening at: http://127.0.0.1:8000 (1098)
+[2023-04-26 05:12:34 +0000] [1098] [INFO] Using worker: sync
+[2023-04-26 05:12:34 +0000] [1120] [INFO] Booting worker with pid: 1120
+[2023-04-26 05:12:34 +0000] [1121] [INFO] Booting worker with pid: 1121
+[2023-04-26 05:12:34 +0000] [1126] [INFO] Booting worker with pid: 1126
+[2023-04-26 05:44:11 +0000] [1120] [INFO] Worker exiting (pid: 1120)
+[2023-04-26 05:44:11 +0000] [1121] [INFO] Worker exiting (pid: 1121)
+[2023-04-26 05:44:11 +0000] [1126] [INFO] Worker exiting (pid: 1126)
+[2023-04-26 05:44:11 +0000] [1098] [INFO] Handling signal: term
+[2023-04-26 05:44:11 +0000] [1098] [WARNING] Worker with pid 1120 was terminated due to signal 15
+[2023-04-26 05:44:11 +0000] [1098] [INFO] Shutting down: Master
+[2023-04-26 05:46:17 +0000] [1076] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:46:17 +0000] [1076] [INFO] Listening at: http://127.0.0.1:8000 (1076)
+[2023-04-26 05:46:17 +0000] [1076] [INFO] Using worker: sync
+[2023-04-26 05:46:17 +0000] [1085] [INFO] Booting worker with pid: 1085
+[2023-04-26 05:46:17 +0000] [1086] [INFO] Booting worker with pid: 1086
+[2023-04-26 05:46:17 +0000] [1088] [INFO] Booting worker with pid: 1088
+[2023-04-26 05:52:14 +0000] [1086] [INFO] Worker exiting (pid: 1086)
+[2023-04-26 05:52:14 +0000] [1085] [INFO] Worker exiting (pid: 1085)
+[2023-04-26 05:52:14 +0000] [1088] [INFO] Worker exiting (pid: 1088)
+[2023-04-26 05:52:14 +0000] [1076] [INFO] Handling signal: term
+[2023-04-26 05:52:14 +0000] [1076] [WARNING] Worker with pid 1086 was terminated due to signal 15
+[2023-04-26 05:52:14 +0000] [1076] [WARNING] Worker with pid 1085 was terminated due to signal 15
+[2023-04-26 05:52:14 +0000] [1076] [INFO] Shutting down: Master
+[2023-04-26 05:55:20 +0000] [1861] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:55:20 +0000] [1861] [INFO] Listening at: http://127.0.0.1:8000 (1861)
+[2023-04-26 05:55:20 +0000] [1861] [INFO] Using worker: sync
+[2023-04-26 05:55:20 +0000] [1864] [INFO] Booting worker with pid: 1864
+[2023-04-26 05:55:20 +0000] [1865] [INFO] Booting worker with pid: 1865
+[2023-04-26 05:55:20 +0000] [1866] [INFO] Booting worker with pid: 1866
+[2023-04-26 05:55:39 +0000] [1861] [INFO] Handling signal: term
+[2023-04-26 05:55:39 +0000] [1861] [WARNING] Worker with pid 1865 was terminated due to signal 1
+[2023-04-26 05:55:39 +0000] [1861] [WARNING] Worker with pid 1864 was terminated due to signal 1
+[2023-04-26 05:55:39 +0000] [1861] [WARNING] Worker with pid 1866 was terminated due to signal 1
+[2023-04-26 05:55:40 +0000] [1861] [INFO] Shutting down: Master
+[2023-04-26 05:46:18 +0000] [1083] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:46:18 +0000] [1083] [INFO] Listening at: http://127.0.0.1:8000 (1083)
+[2023-04-26 05:46:18 +0000] [1083] [INFO] Using worker: sync
+[2023-04-26 05:46:18 +0000] [1086] [INFO] Booting worker with pid: 1086
+[2023-04-26 05:46:18 +0000] [1087] [INFO] Booting worker with pid: 1087
+[2023-04-26 05:46:18 +0000] [1109] [INFO] Booting worker with pid: 1109
+[2023-04-26 09:11:38 +0000] [1083] [INFO] Handling signal: term
+[2023-04-26 09:11:38 +0000] [1109] [INFO] Worker exiting (pid: 1109)
+[2023-04-26 09:11:38 +0000] [1086] [INFO] Worker exiting (pid: 1086)
+[2023-04-26 09:11:38 +0000] [1087] [INFO] Worker exiting (pid: 1087)
+[2023-04-26 09:11:39 +0000] [1083] [WARNING] Worker with pid 1086 was terminated due to signal 11
+[2023-04-26 09:11:39 +0000] [1083] [INFO] Shutting down: Master
+[2023-04-26 05:46:18 +0000] [1098] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:46:18 +0000] [1098] [INFO] Listening at: http://127.0.0.1:8000 (1098)
+[2023-04-26 05:46:18 +0000] [1098] [INFO] Using worker: sync
+[2023-04-26 05:46:18 +0000] [1107] [INFO] Booting worker with pid: 1107
+[2023-04-26 05:46:18 +0000] [1108] [INFO] Booting worker with pid: 1108
+[2023-04-26 05:46:18 +0000] [1109] [INFO] Booting worker with pid: 1109
+[2023-04-26 05:51:51 +0000] [1098] [INFO] Handling signal: term
+[2023-04-26 05:51:51 +0000] [1107] [INFO] Worker exiting (pid: 1107)
+[2023-04-26 05:51:51 +0000] [1108] [INFO] Worker exiting (pid: 1108)
+[2023-04-26 05:51:51 +0000] [1109] [INFO] Worker exiting (pid: 1109)
+[2023-04-26 05:51:51 +0000] [1098] [INFO] Shutting down: Master
+[2023-04-26 05:46:18 +0000] [1067] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:46:18 +0000] [1067] [INFO] Listening at: http://127.0.0.1:8000 (1067)
+[2023-04-26 05:46:18 +0000] [1067] [INFO] Using worker: sync
+[2023-04-26 05:46:18 +0000] [1071] [INFO] Booting worker with pid: 1071
+[2023-04-26 05:46:18 +0000] [1072] [INFO] Booting worker with pid: 1072
+[2023-04-26 05:46:18 +0000] [1073] [INFO] Booting worker with pid: 1073
+[2023-04-26 05:57:27 +0000] [1072] [INFO] Worker exiting (pid: 1072)
+[2023-04-26 05:57:27 +0000] [1073] [INFO] Worker exiting (pid: 1073)
+[2023-04-26 05:57:27 +0000] [1067] [INFO] Handling signal: term
+[2023-04-26 05:57:27 +0000] [1071] [INFO] Worker exiting (pid: 1071)
+[2023-04-26 05:57:28 +0000] [1067] [WARNING] Worker with pid 1072 was terminated due to signal 15
+[2023-04-26 05:57:28 +0000] [1067] [WARNING] Worker with pid 1073 was terminated due to signal 15
+[2023-04-26 05:57:28 +0000] [1067] [INFO] Shutting down: Master
+[2023-04-26 05:46:18 +0000] [1094] [INFO] Starting gunicorn 20.1.0
+[2023-04-26 05:46:18 +0000] [1094] [INFO] Listening at: http://127.0.0.1:8000 (1094)
+[2023-04-26 05:46:18 +0000] [1094] [INFO] Using worker: sync
+[2023-04-26 05:46:18 +0000] [1105] [INFO] Booting worker with pid: 1105
+[2023-04-26 05:46:18 +0000] [1118] [INFO] Booting worker with pid: 1118
+[2023-04-26 05:46:18 +0000] [1119] [INFO] Booting worker with pid: 1119
+[2023-04-28 07:00:03 +0000] [1094] [CRITICAL] WORKER TIMEOUT (pid:1105)
+[2023-04-28 07:00:03 +0000] [1094] [CRITICAL] WORKER TIMEOUT (pid:1118)
+[2023-04-28 07:00:03 +0000] [1094] [CRITICAL] WORKER TIMEOUT (pid:1119)
+[2023-04-28 07:00:03 +0000] [1105] [INFO] Worker exiting (pid: 1105)
+[2023-04-28 07:00:03 +0000] [1118] [INFO] Worker exiting (pid: 1118)
+[2023-04-28 07:00:03 +0000] [1119] [INFO] Worker exiting (pid: 1119)
+[2023-04-28 07:00:04 +0000] [1094] [WARNING] Worker with pid 1119 was terminated due to signal 9
+[2023-04-28 07:00:04 +0000] [1876] [INFO] Booting worker with pid: 1876
+[2023-04-28 07:00:04 +0000] [1877] [INFO] Booting worker with pid: 1877
+[2023-04-28 07:00:04 +0000] [1878] [INFO] Booting worker with pid: 1878
+[2023-04-28 07:11:40 +0000] [1877] [INFO] Worker exiting (pid: 1877)
+[2023-04-28 07:11:40 +0000] [1876] [INFO] Worker exiting (pid: 1876)
+[2023-04-28 07:11:40 +0000] [1094] [INFO] Handling signal: term
+[2023-04-28 07:11:40 +0000] [1878] [INFO] Worker exiting (pid: 1878)
+[2023-04-28 07:11:40 +0000] [1094] [WARNING] Worker with pid 1877 was terminated due to signal 15
+[2023-04-28 07:11:40 +0000] [1094] [WARNING] Worker with pid 1876 was terminated due to signal 15
+[2023-04-28 07:11:40 +0000] [1094] [INFO] Shutting down: Master
+[2023-04-28 07:16:57 +0000] [1090] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 07:16:57 +0000] [1090] [INFO] Listening at: http://127.0.0.1:8000 (1090)
+[2023-04-28 07:16:57 +0000] [1090] [INFO] Using worker: sync
+[2023-04-28 07:16:57 +0000] [1110] [INFO] Booting worker with pid: 1110
+[2023-04-28 07:16:57 +0000] [1113] [INFO] Booting worker with pid: 1113
+[2023-04-28 07:16:57 +0000] [1119] [INFO] Booting worker with pid: 1119
+[2023-04-28 07:13:47 +0000] [1087] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 07:13:47 +0000] [1087] [INFO] Listening at: http://127.0.0.1:8000 (1087)
+[2023-04-28 07:13:47 +0000] [1087] [INFO] Using worker: sync
+[2023-04-28 07:13:47 +0000] [1091] [INFO] Booting worker with pid: 1091
+[2023-04-28 07:13:47 +0000] [1092] [INFO] Booting worker with pid: 1092
+[2023-04-28 07:13:47 +0000] [1102] [INFO] Booting worker with pid: 1102
+[2023-04-28 07:30:35 +0000] [1091] [INFO] Worker exiting (pid: 1091)
+[2023-04-28 07:30:35 +0000] [1102] [INFO] Worker exiting (pid: 1102)
+[2023-04-28 07:30:35 +0000] [1092] [INFO] Worker exiting (pid: 1092)
+[2023-04-28 07:30:35 +0000] [1087] [INFO] Handling signal: term
+[2023-04-28 07:30:35 +0000] [1087] [WARNING] Worker with pid 1102 was terminated due to signal 15
+[2023-04-28 07:30:35 +0000] [1087] [WARNING] Worker with pid 1091 was terminated due to signal 15
+[2023-04-28 07:30:35 +0000] [1087] [INFO] Shutting down: Master
+[2023-04-28 07:13:47 +0000] [1112] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 07:13:47 +0000] [1112] [INFO] Listening at: http://127.0.0.1:8000 (1112)
+[2023-04-28 07:13:47 +0000] [1112] [INFO] Using worker: sync
+[2023-04-28 07:13:47 +0000] [1117] [INFO] Booting worker with pid: 1117
+[2023-04-28 07:13:47 +0000] [1118] [INFO] Booting worker with pid: 1118
+[2023-04-28 07:13:47 +0000] [1119] [INFO] Booting worker with pid: 1119
+[2023-04-28 07:28:02 +0000] [1112] [INFO] Handling signal: term
+[2023-04-28 07:28:02 +0000] [1119] [INFO] Worker exiting (pid: 1119)
+[2023-04-28 07:28:02 +0000] [1118] [INFO] Worker exiting (pid: 1118)
+[2023-04-28 07:28:02 +0000] [1117] [INFO] Worker exiting (pid: 1117)
+[2023-04-28 07:28:02 +0000] [1112] [WARNING] Worker with pid 1118 was terminated due to signal 15
+[2023-04-28 07:28:02 +0000] [1112] [WARNING] Worker with pid 1119 was terminated due to signal 15
+[2023-04-28 07:28:02 +0000] [1112] [WARNING] Worker with pid 1117 was terminated due to signal 11
+[2023-04-28 07:28:02 +0000] [1112] [INFO] Shutting down: Master
+[2023-04-28 07:13:47 +0000] [1037] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 07:13:47 +0000] [1037] [INFO] Listening at: http://127.0.0.1:8000 (1037)
+[2023-04-28 07:13:47 +0000] [1037] [INFO] Using worker: sync
+[2023-04-28 07:13:47 +0000] [1051] [INFO] Booting worker with pid: 1051
+[2023-04-28 07:13:47 +0000] [1052] [INFO] Booting worker with pid: 1052
+[2023-04-28 07:13:47 +0000] [1053] [INFO] Booting worker with pid: 1053
+[2023-04-28 07:13:47 +0000] [1107] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 07:13:47 +0000] [1107] [INFO] Listening at: http://127.0.0.1:8000 (1107)
+[2023-04-28 07:13:47 +0000] [1107] [INFO] Using worker: sync
+[2023-04-28 07:13:47 +0000] [1119] [INFO] Booting worker with pid: 1119
+[2023-04-28 07:13:47 +0000] [1120] [INFO] Booting worker with pid: 1120
+[2023-04-28 07:13:48 +0000] [1122] [INFO] Booting worker with pid: 1122
+[2023-04-28 07:18:44 +0000] [1119] [INFO] Worker exiting (pid: 1119)
+[2023-04-28 07:18:44 +0000] [1107] [INFO] Handling signal: term
+[2023-04-28 07:18:44 +0000] [1122] [INFO] Worker exiting (pid: 1122)
+[2023-04-28 07:18:44 +0000] [1120] [INFO] Worker exiting (pid: 1120)
+[2023-04-28 07:18:44 +0000] [1107] [WARNING] Worker with pid 1119 was terminated due to signal 15
+[2023-04-28 07:18:44 +0000] [1107] [WARNING] Worker with pid 1122 was terminated due to signal 15
+[2023-04-28 07:18:44 +0000] [1107] [INFO] Shutting down: Master
+[2023-04-28 07:13:47 +0000] [1076] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 07:13:47 +0000] [1076] [INFO] Listening at: http://127.0.0.1:8000 (1076)
+[2023-04-28 07:13:47 +0000] [1076] [INFO] Using worker: sync
+[2023-04-28 07:13:47 +0000] [1092] [INFO] Booting worker with pid: 1092
+[2023-04-28 07:13:48 +0000] [1093] [INFO] Booting worker with pid: 1093
+[2023-04-28 07:13:48 +0000] [1094] [INFO] Booting worker with pid: 1094
+[2023-04-28 09:20:08 +0000] [1137] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 09:20:08 +0000] [1137] [INFO] Listening at: http://127.0.0.1:8000 (1137)
+[2023-04-28 09:20:08 +0000] [1137] [INFO] Using worker: sync
+[2023-04-28 09:20:08 +0000] [1142] [INFO] Booting worker with pid: 1142
+[2023-04-28 09:20:08 +0000] [1143] [INFO] Booting worker with pid: 1143
+[2023-04-28 09:20:08 +0000] [1144] [INFO] Booting worker with pid: 1144
+[2023-04-28 09:24:42 +0000] [1137] [INFO] Handling signal: term
+[2023-04-28 09:24:42 +0000] [1143] [INFO] Worker exiting (pid: 1143)
+[2023-04-28 09:24:42 +0000] [1144] [INFO] Worker exiting (pid: 1144)
+[2023-04-28 09:24:42 +0000] [1142] [INFO] Worker exiting (pid: 1142)
+[2023-04-28 09:24:42 +0000] [1137] [INFO] Shutting down: Master
+[2023-04-28 07:11:51 +0000] [1114] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 07:11:51 +0000] [1114] [INFO] Listening at: http://127.0.0.1:8000 (1114)
+[2023-04-28 07:11:51 +0000] [1114] [INFO] Using worker: sync
+[2023-04-28 07:11:51 +0000] [1141] [INFO] Booting worker with pid: 1141
+[2023-04-28 07:11:51 +0000] [1142] [INFO] Booting worker with pid: 1142
+[2023-04-28 07:11:51 +0000] [1148] [INFO] Booting worker with pid: 1148
+[2023-04-28 09:27:03 +0000] [1114] [CRITICAL] WORKER TIMEOUT (pid:1141)
+[2023-04-28 09:27:03 +0000] [1114] [CRITICAL] WORKER TIMEOUT (pid:1142)
+[2023-04-28 09:27:03 +0000] [1114] [CRITICAL] WORKER TIMEOUT (pid:1148)
+[2023-04-28 09:27:03 +0000] [1141] [INFO] Worker exiting (pid: 1141)
+[2023-04-28 09:27:03 +0000] [1142] [INFO] Worker exiting (pid: 1142)
+[2023-04-28 09:27:03 +0000] [1148] [INFO] Worker exiting (pid: 1148)
+[2023-04-28 09:27:03 +0000] [1484] [INFO] Booting worker with pid: 1484
+[2023-04-28 09:27:03 +0000] [1114] [WARNING] Worker with pid 1148 was terminated due to signal 9
+[2023-04-28 09:27:03 +0000] [1114] [WARNING] Worker with pid 1142 was terminated due to signal 9
+[2023-04-28 09:27:03 +0000] [1485] [INFO] Booting worker with pid: 1485
+[2023-04-28 09:27:03 +0000] [1486] [INFO] Booting worker with pid: 1486
+[2023-04-28 09:36:21 +0000] [1486] [INFO] Worker exiting (pid: 1486)
+[2023-04-28 09:36:21 +0000] [1484] [INFO] Worker exiting (pid: 1484)
+[2023-04-28 09:36:21 +0000] [1114] [INFO] Handling signal: term
+[2023-04-28 09:36:21 +0000] [1485] [INFO] Worker exiting (pid: 1485)
+[2023-04-28 09:36:21 +0000] [1114] [WARNING] Worker with pid 1484 was terminated due to signal 15
+[2023-04-28 09:36:21 +0000] [1114] [WARNING] Worker with pid 1486 was terminated due to signal 15
+[2023-04-28 09:36:21 +0000] [1114] [INFO] Shutting down: Master
+[2023-04-28 09:36:34 +0000] [1069] [INFO] Starting gunicorn 20.1.0
+[2023-04-28 09:36:34 +0000] [1069] [INFO] Listening at: http://127.0.0.1:8000 (1069)
+[2023-04-28 09:36:34 +0000] [1069] [INFO] Using worker: sync
+[2023-04-28 09:36:34 +0000] [1078] [INFO] Booting worker with pid: 1078
+[2023-04-28 09:36:34 +0000] [1079] [INFO] Booting worker with pid: 1079
+[2023-04-28 09:36:34 +0000] [1080] [INFO] Booting worker with pid: 1080
+[2023-04-28 09:41:33 +0000] [1069] [CRITICAL] WORKER TIMEOUT (pid:1078)
+[2023-04-28 09:41:33 +0000] [1069] [CRITICAL] WORKER TIMEOUT (pid:1079)
+[2023-04-28 09:41:33 +0000] [1069] [CRITICAL] WORKER TIMEOUT (pid:1080)
+[2023-04-28 09:41:33 +0000] [1078] [INFO] Worker exiting (pid: 1078)
+[2023-04-28 09:41:33 +0000] [1080] [INFO] Worker exiting (pid: 1080)
+[2023-04-28 09:41:33 +0000] [1079] [INFO] Worker exiting (pid: 1079)
+[2023-04-28 09:41:33 +0000] [1491] [INFO] Booting worker with pid: 1491
+[2023-04-28 09:41:33 +0000] [1069] [WARNING] Worker with pid 1079 was terminated due to signal 9
+[2023-04-28 09:41:33 +0000] [1069] [WARNING] Worker with pid 1078 was terminated due to signal 9
+[2023-04-28 09:41:33 +0000] [1492] [INFO] Booting worker with pid: 1492
+[2023-04-28 09:41:33 +0000] [1494] [INFO] Booting worker with pid: 1494
+[2023-05-02 01:08:09 +0000] [1492] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-05-02 01:08:09 +0000] [1492] [INFO] Worker exiting (pid: 1492)
+[2023-05-02 01:08:09 +0000] [5182] [INFO] Booting worker with pid: 5182
+[2023-05-02 01:08:09 +0000] [1494] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-05-02 01:08:09 +0000] [1494] [INFO] Worker exiting (pid: 1494)
+[2023-05-02 01:08:09 +0000] [1491] [INFO] Worker reloading: /home/sydeco/target_landing/gunicorn/gunicorn-config.py modified
+[2023-05-02 01:08:09 +0000] [1491] [INFO] Worker exiting (pid: 1491)
+[2023-05-02 01:08:09 +0000] [5185] [INFO] Booting worker with pid: 5185
+[2023-05-02 01:08:09 +0000] [5186] [INFO] Booting worker with pid: 5186
+[2023-05-02 01:09:46 +0000] [1069] [INFO] Handling signal: term
+[2023-05-02 01:09:46 +0000] [5186] [INFO] Worker exiting (pid: 5186)
+[2023-05-02 01:09:46 +0000] [5182] [INFO] Worker exiting (pid: 5182)
+[2023-05-02 01:09:46 +0000] [5185] [INFO] Worker exiting (pid: 5185)
+[2023-05-02 01:09:46 +0000] [1069] [INFO] Shutting down: Master
+[2023-05-02 01:10:06 +0000] [5231] [INFO] Starting gunicorn 20.1.0
+[2023-05-02 01:10:06 +0000] [5231] [INFO] Listening at: http://192.168.1.5:8000 (5231)
+[2023-05-02 01:10:06 +0000] [5231] [INFO] Using worker: sync
+[2023-05-02 01:10:06 +0000] [5234] [INFO] Booting worker with pid: 5234
+[2023-05-02 01:10:06 +0000] [5235] [INFO] Booting worker with pid: 5235
+[2023-05-02 01:10:06 +0000] [5236] [INFO] Booting worker with pid: 5236
+[2023-05-02 01:11:01 +0000] [5231] [INFO] Handling signal: term
+[2023-05-02 01:11:01 +0000] [5235] [INFO] Worker exiting (pid: 5235)
+[2023-05-02 01:11:01 +0000] [5234] [INFO] Worker exiting (pid: 5234)
+[2023-05-02 01:11:01 +0000] [5236] [INFO] Worker exiting (pid: 5236)
+[2023-05-02 01:11:02 +0000] [5231] [INFO] Shutting down: Master
+[2023-05-02 01:12:30 +0000] [5278] [INFO] Starting gunicorn 20.1.0
+[2023-05-02 01:12:30 +0000] [5278] [INFO] Listening at: http://192.168.1.5:8000 (5278)
+[2023-05-02 01:12:30 +0000] [5278] [INFO] Using worker: sync
+[2023-05-02 01:12:30 +0000] [5281] [INFO] Booting worker with pid: 5281
+[2023-05-02 01:12:30 +0000] [5282] [INFO] Booting worker with pid: 5282
+[2023-05-02 01:12:30 +0000] [5284] [INFO] Booting worker with pid: 5284
+[2023-05-02 01:35:18 +0000] [5278] [INFO] Handling signal: term
+[2023-05-02 01:35:18 +0000] [5281] [INFO] Worker exiting (pid: 5281)
+[2023-05-02 01:35:18 +0000] [5284] [INFO] Worker exiting (pid: 5284)
+[2023-05-02 01:35:18 +0000] [5278] [WARNING] Worker with pid 5282 was terminated due to signal 1
+[2023-05-02 01:35:18 +0000] [5278] [WARNING] Worker with pid 5281 was terminated due to signal 15
+[2023-05-02 01:35:18 +0000] [5278] [WARNING] Worker with pid 5284 was terminated due to signal 15
+[2023-05-02 01:35:18 +0000] [5278] [INFO] Shutting down: Master
+[2023-05-02 01:36:07 +0000] [1044] [INFO] Starting gunicorn 20.1.0
+[2023-05-02 01:36:07 +0000] [1044] [INFO] Listening at: http://192.168.1.5:8000 (1044)
+[2023-05-02 01:36:07 +0000] [1044] [INFO] Using worker: sync
+[2023-05-02 01:36:07 +0000] [1054] [INFO] Booting worker with pid: 1054
+[2023-05-02 01:36:07 +0000] [1055] [INFO] Booting worker with pid: 1055
+[2023-05-02 01:36:07 +0000] [1056] [INFO] Booting worker with pid: 1056
+[2023-05-02 02:22:58 +0000] [1056] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:22:58 +0000] [1056] [INFO] Worker exiting (pid: 1056)
+[2023-05-02 02:22:58 +0000] [23053] [INFO] Booting worker with pid: 23053
+[2023-05-02 02:22:59 +0000] [1054] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:22:59 +0000] [1054] [INFO] Worker exiting (pid: 1054)
+[2023-05-02 02:22:59 +0000] [1055] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:22:59 +0000] [1055] [INFO] Worker exiting (pid: 1055)
+[2023-05-02 02:22:59 +0000] [23055] [INFO] Booting worker with pid: 23055
+[2023-05-02 02:22:59 +0000] [23056] [INFO] Booting worker with pid: 23056
+[2023-05-02 02:23:07 +0000] [1044] [INFO] Handling signal: term
+[2023-05-02 02:23:07 +0000] [23055] [INFO] Worker exiting (pid: 23055)
+[2023-05-02 02:23:07 +0000] [23053] [INFO] Worker exiting (pid: 23053)
+[2023-05-02 02:23:07 +0000] [23056] [INFO] Worker exiting (pid: 23056)
+[2023-05-02 02:23:07 +0000] [1044] [WARNING] Worker with pid 23055 was terminated due to signal 15
+[2023-05-02 02:23:07 +0000] [1044] [WARNING] Worker with pid 23053 was terminated due to signal 15
+[2023-05-02 02:23:08 +0000] [1044] [INFO] Shutting down: Master
+[2023-05-02 02:29:22 +0000] [1283] [INFO] Starting gunicorn 20.1.0
+[2023-05-02 02:29:22 +0000] [1283] [INFO] Listening at: http://192.168.1.5:8000 (1283)
+[2023-05-02 02:29:22 +0000] [1283] [INFO] Using worker: sync
+[2023-05-02 02:29:22 +0000] [1324] [INFO] Booting worker with pid: 1324
+[2023-05-02 02:29:23 +0000] [1335] [INFO] Booting worker with pid: 1335
+[2023-05-02 02:29:23 +0000] [1341] [INFO] Booting worker with pid: 1341
+[2023-05-02 02:34:32 +0000] [1324] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:34:32 +0000] [1324] [INFO] Worker exiting (pid: 1324)
+[2023-05-02 02:34:32 +0000] [1341] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:34:32 +0000] [1341] [INFO] Worker exiting (pid: 1341)
+[2023-05-02 02:34:32 +0000] [1335] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:34:32 +0000] [1335] [INFO] Worker exiting (pid: 1335)
+[2023-05-02 02:34:32 +0000] [2405] [INFO] Booting worker with pid: 2405
+[2023-05-02 02:34:32 +0000] [2406] [INFO] Booting worker with pid: 2406
+[2023-05-02 02:34:32 +0000] [2407] [INFO] Booting worker with pid: 2407
+[2023-05-02 02:34:35 +0000] [2405] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:34:35 +0000] [2405] [INFO] Worker exiting (pid: 2405)
+[2023-05-02 02:34:35 +0000] [2406] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:34:35 +0000] [2406] [INFO] Worker exiting (pid: 2406)
+[2023-05-02 02:34:35 +0000] [2407] [INFO] Worker reloading: /home/sydeco/target_landing/target_landing/settings.py modified
+[2023-05-02 02:34:35 +0000] [2407] [INFO] Worker exiting (pid: 2407)
+[2023-05-02 02:34:35 +0000] [2414] [INFO] Booting worker with pid: 2414
+[2023-05-02 02:34:35 +0000] [2415] [INFO] Booting worker with pid: 2415
+[2023-05-02 02:34:35 +0000] [2416] [INFO] Booting worker with pid: 2416
+[2023-05-02 02:35:21 +0000] [1283] [INFO] Handling signal: term
+[2023-05-02 02:35:21 +0000] [2414] [INFO] Worker exiting (pid: 2414)
+[2023-05-02 02:35:21 +0000] [2415] [INFO] Worker exiting (pid: 2415)
+[2023-05-02 02:35:21 +0000] [2416] [INFO] Worker exiting (pid: 2416)
+[2023-05-02 02:35:21 +0000] [1283] [WARNING] Worker with pid 2415 was terminated due to signal 15
+[2023-05-02 02:35:21 +0000] [1283] [WARNING] Worker with pid 2414 was terminated due to signal 15
+[2023-05-02 02:35:21 +0000] [1283] [INFO] Shutting down: Master
