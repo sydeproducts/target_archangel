@@ -42,7 +42,7 @@ window.onKeyup = (e) => {
 };
 
 document.onkeydown = (e) => {
-    // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U,A,P,F,S
+    // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U,A,P,F,S,I
     if (
         e.keyCode === 123 ||
         ctrlShiftKey(e, "I") ||
@@ -54,8 +54,10 @@ document.onkeydown = (e) => {
         (e.ctrlKey && e.keyCode === "P".charCodeAt(0)) ||
         (e.ctrlKey && e.keyCode === "F".charCodeAt(0)) ||
         (e.ctrlKey && e.keyCode === "S".charCodeAt(0)) ||
+        (e.ctrlKey && e.keyCode === "I".charCodeAt(0)) ||
         e.key == "PrintScreen"
-    )
+    ) {
         navigator.clipboard.writeText("");
-    return false;
+        return false;
+    }
 };
