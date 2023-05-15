@@ -5,6 +5,7 @@
 body {
     background-color: #edf2f7;
     font-family: Helvetica, Arial, Sans-Serif;
+    transition: 1s ease-in-out;
 }
 
 img {
